@@ -4,9 +4,9 @@ welcome to creeper sweeper.
 click on a box to find the diamonds but make sure not to find the creepers!
 ''')
 print('How many rows would you like?')
-num_rows = input('>')
+num_rows = int(input('>'))
 print(' How many columns?')
-num_cols = input('>')
+num_cols = int(input('>'))
 print(num_rows,num_cols)
 
 for count in range(num_cols):
